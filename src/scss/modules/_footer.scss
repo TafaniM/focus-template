@@ -1,0 +1,52 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-top: 260px;
+}
+
+.socialmedia {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.socialmedia p {
+    font-size: 16px;
+}
+
+footer img {
+    min-height: 7vh;
+}
+
+.socialmedia a {
+    margin-left: 22px;
+    text-decoration: none;
+}
+
+.logo {
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid #FFF;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        padding: 25px;
+        margin-top: 125px;
+    }
+    .socialmedia {
+        padding-top: 20px;
+    }
+    .socialmedia p {
+        font-size: 9px;
+    }
+    footer img {
+        min-height: 5vh;
+    }
+    .socialmedia a {
+        margin-left: 0px;
+    }
+    .logo {
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,98 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+// :root {
+// }
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 768px) {
+	p {
+		font-size: 14px;
+	}
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+
+@font-face {
+  font-family: 'RightGothic';
+  font-weight: 100;
+  src: url('../img/fonts/RightGothic-SpatialFine.woff2') format('woff2'),
+}
+
+h2 {
+  font-family: 'RightGothic', sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 40px;
+    padding-bottom: 30px;
+	}
+}
+
+h3 {
+  font-family: "libre-bodoni", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 30px;
+}
+
+a {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	h4 {
+		font-size: 20px;
+	}
+}

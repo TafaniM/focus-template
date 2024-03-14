@@ -1,0 +1,30 @@
+.intro {
+    padding: 260px;
+}
+
+h1 {
+    font-family: 'RightGothic';
+    font-size: 150px;
+    margin-bottom: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.littletitle {
+    font-family: 'RightGothic', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .intro {
+		padding: 125px 0px 125px;
+	}
+    h1 {
+		font-size: 68px;
+        margin-bottom: 30px;
+	}
+    .littletitle {
+		font-size: 24px;
+	}
+}

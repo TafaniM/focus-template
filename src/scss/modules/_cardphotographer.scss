@@ -1,0 +1,36 @@
+.cardphotographer {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.cardphotographer a {
+    color: #DEDEDE;
+    font-size: 12px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay a, .overlay h3 {
+    margin: 5px;
+}
+
+.trendingphotographer {
+    padding-bottom: 260px;
+}
+
+@media (max-width: 768px) {
+    .trendingphotographer {
+        padding-bottom: 125px;
+    }
+}

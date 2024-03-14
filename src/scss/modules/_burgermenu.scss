@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .burger-menu {
+		display: none;
+	}
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.menu-content ul li a {
+    display: block;
+    padding: 15px;
+    color: black;
+}
+
+.menu-icon img {
+    min-height: 4vh;
+    margin-right: 15px;
+    cursor: pointer;
+}

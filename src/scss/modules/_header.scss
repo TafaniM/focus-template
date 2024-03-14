@@ -1,0 +1,15 @@
+.headerhomepage {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .menu {
+		display: none;
+	}
+    .headerhomepage {
+        padding: 40px 0px 30px;
+    }
+}
