@@ -97,6 +97,22 @@ a {
   font-size: 20px;
 }
 
+@media (max-width: 1400px) {
+  a {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1040px) {
+  a {
+		font-size: 10px;
+	}
+}
+@media (max-width: 768px) {
+  a {
+		font-size: 15px;
+	}
+}
+
 h4 {
   font-size: 40px;
   font-family: "Inter", sans-serif;
@@ -122,4 +138,16 @@ h5 {
   font-style: italic;
   font-size: 80px;
   margin: 20px 0px 20px;
+}
+
+@media (max-width: 1200px) {
+	h5 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 768px) {
+	h5 {
+		font-size: 40px;
+	}
 }
