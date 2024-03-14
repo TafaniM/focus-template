@@ -16,13 +16,25 @@ h1 {
     font-weight: 100;
 }
 
+@media (max-width: 1200px) {
+    .intro {
+		padding: 180px 0px 180px;
+	}
+    h1 {
+		font-size: 110px;
+        margin-bottom: 30px;
+	}
+    .littletitle {
+		font-size: 34px;
+	}
+}
+
 @media (max-width: 768px) {
     .intro {
-		padding: 125px 0px 125px;
+		padding: 150px 0px 150px;
 	}
     h1 {
 		font-size: 68px;
-        margin-bottom: 30px;
 	}
     .littletitle {
 		font-size: 24px;
