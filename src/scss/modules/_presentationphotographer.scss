@@ -1,0 +1,24 @@
+.presentationphotographer img {
+    margin-bottom: 50px;
+}
+
+.presentationphotographer a {
+    margin-right: 25px;
+}
+
+.presentationphotographer p {
+    padding-bottom: 260px;
+}
+
+
+@media (max-width: 1200px) {
+    .presentationphotographer p {
+        padding-bottom: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .presentationphotographer p {
+        padding-bottom: 150px;
+    }
+}
