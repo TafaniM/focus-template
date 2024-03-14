@@ -1,5 +1,5 @@
 .intro {
-    padding: 260px;
+    padding-bottom: 260px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 
 @media (max-width: 1200px) {
     .intro {
-		padding: 180px 0px 180px;
+		padding-bottom: 180px;
 	}
     h1 {
 		font-size: 110px;
@@ -31,7 +31,7 @@ h1 {
 
 @media (max-width: 768px) {
     .intro {
-		padding: 150px 0px 150px;
+		padding-bottom: 150px;
 	}
     h1 {
 		font-size: 68px;

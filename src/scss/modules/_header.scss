@@ -3,6 +3,17 @@
     color: white;
     padding: 50px;
     text-align: right;
+    margin-bottom: 260px;
+}
+
+.logofocus img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .headerhomepage {
+        margin-bottom: 180px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -11,5 +22,6 @@
 	}
     .headerhomepage {
         padding: 40px 0px 30px;
+        margin-bottom: 150px;
     }
 }
