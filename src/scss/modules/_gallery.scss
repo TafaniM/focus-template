@@ -36,14 +36,6 @@ body.overlay-open {
 }
 
 
-
-
-
-
-
-
-
-
 .overlay2-button {
     position: absolute;
     top: 50%;
@@ -51,7 +43,7 @@ body.overlay-open {
     background: none;
     border: none;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     z-index: 10000;
 }
@@ -62,4 +54,16 @@ body.overlay-open {
 
 #nextButton {
     right: -40px;
+}
+
+.overlay2-close-button {
+    position: absolute;
+    top: -40px;
+    right: 0px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 10000;
 }
