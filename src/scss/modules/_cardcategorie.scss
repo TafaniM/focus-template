@@ -10,3 +10,23 @@
 .cardcategorie img, h4 {
     margin: 20px 0px 20px;
 }
+
+.cardcategorie:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.cardcategorie img {
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.cardcategorie:hover h4 {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.cardcategorie h4 {
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
