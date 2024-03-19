@@ -67,3 +67,20 @@ body.overlay-open {
     cursor: pointer;
     z-index: 10000;
 }
+
+
+.gallery h2 {
+    padding-top: 260px;
+}
+
+@media (max-width: 1200px) {
+    .gallery h2 {
+        padding-top: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery h2 {
+        padding-top: 150px;
+    }
+}
