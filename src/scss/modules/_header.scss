@@ -1,27 +1,47 @@
 .headerhomepage {
-    background-color: black;
-    color: white;
-    padding: 50px;
-    text-align: right;
-    margin-bottom: 260px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: right;
+  margin-bottom: 260px;
 }
 
-.logofocus img {
-    width: 100%;
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu nav li {
+  display: inline-block;
+  margin-right: 10vh;
+}
+
+.menu nav li:last-child {
+  margin-right: 0;
+}
+
+.logofocus h1 a {
+  font-family: "RightGothic", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  font-size: 70px;
+  text-align: left;
+  font-style: normal;
 }
 
 @media (max-width: 1200px) {
-    .headerhomepage {
-        margin-bottom: 180px;
-    }
+  .headerhomepage {
+    margin-bottom: 180px;
+  }
 }
 
 @media (max-width: 774px) {
-    .menu {
-		display: none;
-	}
-    .headerhomepage {
-        padding: 40px 0px 30px;
-        margin-bottom: 150px;
-    }
+  .menu {
+    display: none;
+  }
+  .headerhomepage {
+    padding: 40px 0px 30px;
+    margin-bottom: 150px;
+  }
 }

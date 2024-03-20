@@ -23,7 +23,7 @@
       "(.*)\\.(woff|woff2?|ttf|otf)": "fonts/$1.$2",
       "(.*)\\.(mp3)": "audio/$1.$2",
       "(.*)\\.(mp4|ogg|webm)": "video/$1.$2",
-      "(.*)\\.(svg|png|gif|jpg|webp)": "img/$1{.hash}.$2"
+      "(.*)\\.(svg|png|gif|jpg|webp)": "img/$1.$2"
     },
     "silent": true,
     "development": {
