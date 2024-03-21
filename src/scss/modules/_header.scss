@@ -1,14 +1,15 @@
 .headerhomepage {
   background-color: black;
   color: white;
-  padding: 50px;
+  padding: 20px 50px;
   text-align: right;
-  margin-bottom: 260px;
+  margin-bottom: 160px;
 }
 
 .menu {
   display: flex;
   justify-content: flex-end;
+  height: 100%;
 }
 
 .menu nav li {
@@ -25,14 +26,19 @@
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  font-size: 70px;
+  font-size: 60px;
   text-align: left;
   font-style: normal;
+  margin: 0px;
+  height: 100%;
 }
 
 @media (max-width: 1200px) {
   .headerhomepage {
-    margin-bottom: 180px;
+    margin-bottom: 110px;
+  }
+  .logofocus h1 a {
+    font-size: 40px;
   }
 }
 
@@ -42,6 +48,6 @@
   }
   .headerhomepage {
     padding: 40px 0px 30px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
   }
 }

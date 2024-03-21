@@ -20,6 +20,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+p {
+  padding-bottom: 3vh;
+}
+
 @media (max-width: 1200px) {
   p {
     font-size: 20px;

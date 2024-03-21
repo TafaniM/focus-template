@@ -1,86 +1,84 @@
 .gallery img {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 #overlay2 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
 }
 
 #overlay2-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #overlay2-image {
-    width: 60vh;
+  width: 60vh;
 }
 
 #overlay2-caption {
-    color: #fff;
-    font-size: 18px;
-    margin-top: 10px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 body.overlay-open {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-
 .overlay2-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-    z-index: 10000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  z-index: 10000;
 }
 
 #prevButton {
-    left: -40px;
+  left: -40px;
 }
 
 #nextButton {
-    right: -40px;
+  right: -40px;
 }
 
 .overlay2-close-button {
-    position: absolute;
-    top: -40px;
-    right: 0px;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-    z-index: 10000;
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  z-index: 10000;
 }
 
-
-.gallery h2 {
-    padding-top: 260px;
+.gallery {
+  padding-bottom: 160px;
 }
 
 @media (max-width: 1200px) {
-    .gallery h2 {
-        padding-top: 180px;
-    }
+  .gallery h2 {
+    padding-top: 180px;
+  }
 }
 
 @media (max-width: 768px) {
-    .gallery h2 {
-        padding-top: 150px;
-    }
+  .gallery h2 {
+    padding-top: 150px;
+  }
 }
