@@ -60,6 +60,11 @@ h3 {
   padding-bottom: 260px;
 }
 
+.trending-link a {
+  display: block; /* Pour ajouter un retour à la ligne entre chaque lien */
+  text-align: right; /* Pour aligner les liens à droite */
+}
+
 @media (max-width: 768px) {
   .trendingphotographer {
     padding-bottom: 125px;
